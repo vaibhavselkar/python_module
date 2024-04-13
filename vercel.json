@@ -9,8 +9,7 @@
   "routes": [
     {
       "src": "/feedback",
-      "dest": "/server.js",
-      "method": ["GET", "PUT", "POST"]
+      "dest": "/server.js"
     }    
   ]
 }
