@@ -7,7 +7,9 @@ const PORT = 4000;
 
 // Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 
 // Feedback function
 function provideFeedback(writingResponse, callback) {
